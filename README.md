@@ -1,99 +1,119 @@
+
 # The Wild Oasis
 
-A hotel web application built with Next.js, React, and Tailwind CSS. The Wild Oasis allows users to explore luxury cabins, make online reservations, manage their bookings, and securely sign in with Google. Enjoy a seamless, fast, and visually engaging experience for your next adventure.
+**A hotel reservation web application built with Next.js, React, and Tailwind CSS.**
+The Wild Oasis enables users to explore premium cabins, check real-time availability, make secure online bookings, and manage their reservations effortlessly — all wrapped in a visually engaging, responsive experience.
 
-![The Wild Oasis](https://github.com/user-attachments/assets/3982397a-6802-4434-b7b0-499c9e304c75)
-
-## 🏞️ Live Demo
-
-> _Demo Link: (https://the-wild-oasis-website-seven-alpha.vercel.app/)_
-
----
-
-## 🌟 Features
-
-- **Cabin Exploration**
-  - Browse a selection of luxury cabins with detailed descriptions, photos, capacities, and pricing.
-  - Filter cabins by capacity (small, medium, large).
-  - Responsive, modern UI for easy navigation.
-
-- **Seamless Reservations**
-  - Real-time availability and booking for each cabin.
-  - Secure, user-friendly reservation form.
-
-- **User Account Management**
-  - Google authentication via NextAuth for quick, secure sign-in.
-  - Personal dashboard: view, manage, and delete your reservations.
-  - Profile management: update email and guest details.
-
-- **Session & State Management**
-  - Persistent user sessions with session management handled via NextAuth.
-  - Optimistic UI updates for booking and cancellation.
-  - Private routes for authenticated users, ensuring data privacy.
-
-- **Performance & Deployment**
-  - Built with **Next.js App Router** and **Turbopack** for fast build times and blazing runtime performance.
-  - Styled using **Tailwind CSS** for a modern, accessible look & feel.
-  - Hosted and deployed on **Vercel** for instant global delivery.
-
-- **Additional Highlights**
-  - Custom theme with “Josefin Sans” Google font.
-  - Informative “About” page sharing the Wild Oasis experience.
-  - Accessible navigation and UI components.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3982397a-6802-4434-b7b0-499c9e304c75" alt="The Wild Oasis Banner" width="100%"/>
+</p>
 
 ---
 
-## 🚀 Tech Stack
+## 🌐 Live Demo
 
-- **Framework**: [Next.js](https://nextjs.org/) (App Router, Server Components, Suspense)
-- **Frontend**: [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/)
-- **Authentication**: [NextAuth.js](https://next-auth.js.org/) with Google provider
-- **Build Tool**: [Turbopack](https://turbo.build/pack)
-- **Deployment**: [Vercel](https://vercel.com/)
-- **Database**: [Supabase](https://supabase.com/) (used in backend data services)
+**🔗 [View the Application](https://the-wild-oasis-website-seven-alpha.vercel.app/)**
 
 ---
 
-## 📸 Screenshots
+## ✨ Key Features
 
-![image](https://github.com/user-attachments/assets/4573ff13-3d5c-4311-9b14-2a20b97c6891)
-![image](https://github.com/user-attachments/assets/ba443909-a895-4225-b067-dc498111a0a9)
-![image](https://github.com/user-attachments/assets/fb09d9e4-064d-4443-871a-2e5d4f0ac84a)
-![image](https://github.com/user-attachments/assets/cc6f3259-3aeb-448f-8254-e6efd52899bb)
+### 🏡 Cabin Exploration
+
+* Browse a curated list of luxury cabins with high-quality images, capacities, and pricing.
+* Filter options based on capacity (small, medium, large).
+* Fully responsive and interactive interface.
+
+### 📆 Seamless Booking
+
+* Real-time cabin availability.
+* Secure, intuitive booking process.
+* Optimistic UI updates ensure fast feedback after interactions.
+
+### 👤 User Management
+
+* Secure Google OAuth authentication using NextAuth.
+* Personalized dashboard to view, modify, or cancel reservations.
+* Profile settings: update guest info, email, and more.
+
+### 🔐 Secure Session Handling
+
+* Persistent sessions powered by **NextAuth**.
+* Role-based private routes ensure user-specific data access.
+
+### ⚡ Performance & Scalability
+
+* Built with **Next.js App Router** and **Turbopack** for blazing-fast performance.
+* Optimized with **Tailwind CSS** for design consistency and accessibility.
+* Automatically deployed on **Vercel** for global CDN distribution.
+
+### 🎨 Design & Accessibility
+
+* Unique UI theme with **Josefin Sans** Google font.
+* Clean layout and accessible components throughout.
+* Informative “About” page highlighting the experience.
 
 ---
 
-## 🧭 Project Structure
+## 🛠️ Tech Stack
 
-- `/app`  
-  Main application code (pages, layouts, components)
-- `/app/_components`  
-  Reusable UI and logic components
-- `/app/_lib`  
-  Data fetching, authentication, and utility services
-- `/public`  
-  Static assets (images, background, icons)
-- `/styles`  
-  Global and component-level styles
+| Layer          | Technologies Used                                                     |
+| -------------- | --------------------------------------------------------------------- |
+| **Framework**  | [Next.js](https://nextjs.org/) (App Router, Server Components)        |
+| **Frontend**   | [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/) |
+| **Auth**       | [NextAuth.js](https://next-auth.js.org/) (Google Provider)            |
+| **Database**   | [Supabase](https://supabase.com/)                                     |
+| **Build Tool** | [Turbopack](https://turbo.build/pack)                                 |
+| **Deployment** | [Vercel](https://vercel.com/)                                         |
 
 ---
 
-## 🔒 Authentication
+## 🖼️ Screenshots
 
-The Wild Oasis uses **NextAuth** for Google OAuth authentication. User data is protected and sessions are managed securely. Only authenticated users can make and manage reservations.
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/4573ff13-3d5c-4311-9b14-2a20b97c6891" width="48%" />
+  <img src="https://github.com/user-attachments/assets/ba443909-a895-4225-b067-dc498111a0a9" width="48%" />
+</p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/fb09d9e4-064d-4443-871a-2e5d4f0ac84a" width="48%" />
+  <img src="https://github.com/user-attachments/assets/cc6f3259-3aeb-448f-8254-e6efd52899bb" width="48%" />
+</p>
 
 ---
 
-## 🛠️ Getting Started
+## 🧩 Project Structure
 
-1. **Clone the repository:**
+```
+/app
+├── _components       → Reusable UI and functional components
+├── _lib              → Data fetching, session handling, and utilities
+├── page.tsx          → Page routes and layouts (App Router)
+│
+/public               → Static assets (images, icons, etc.)
+/styles               → Tailwind and global CSS
+```
+
+---
+
+## 🔐 Authentication
+
+The Wild Oasis integrates **Google OAuth via NextAuth** to ensure secure and reliable login functionality.
+All user-specific routes and data access are protected through server-side session validation.
+
+---
+
+## ⚙️ Getting Started
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
 
    ```bash
    git clone https://github.com/JangoSaga/the-wild-oasis-website.git
    cd the-wild-oasis-website
    ```
 
-2. **Install dependencies:**
+2. **Install dependencies**
 
    ```bash
    npm install
@@ -101,20 +121,20 @@ The Wild Oasis uses **NextAuth** for Google OAuth authentication. User data is p
    yarn install
    ```
 
-3. **Set up environment variables:**
+3. **Configure environment variables**
 
-   Create a `.env.local` file based on `.env.example` and fill in credentials for NextAuth, Supabase, etc.
+   Create a `.env.local` file based on `.env.example` and populate it with the following credentials:
 
+   ```env
+   NEXTAUTH_URL=http://localhost:3000
+   NEXTAUTH_SECRET=your_nextauth_secret
+   GOOGLE_CLIENT_ID=your_google_client_id
+   GOOGLE_CLIENT_SECRET=your_google_client_secret
+   SUPABASE_URL=your_supabase_url
+   SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
-   NEXTAUTH_URL=...
-   NEXTAUTH_SECRET=...
-   GOOGLE_CLIENT_ID=...
-   GOOGLE_CLIENT_SECRET=...
-   SUPABASE_URL=...
-   SUPABASE_ANON_KEY=...
-   ```
 
-4. **Run the development server:**
+4. **Start the development server**
 
    ```bash
    npm run dev
@@ -122,6 +142,12 @@ The Wild Oasis uses **NextAuth** for Google OAuth authentication. User data is p
    yarn dev
    ```
 
-   Visit [http://localhost:3000](http://localhost:3000)
+   Navigate to **[http://localhost:3000](http://localhost:3000)** in your browser.
 
-## Built with ❤️ by [JangoSaga](https://github.com/JangoSaga)
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by [**JangoSaga**](https://github.com/JangoSaga)
+
+---
